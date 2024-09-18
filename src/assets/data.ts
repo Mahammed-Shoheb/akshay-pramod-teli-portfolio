@@ -11,7 +11,7 @@ import {
   IconReportAnalytics,
 } from "@tabler/icons-react";
 
-export const links = ["home", "skills", "tools", "products", "about"];
+export const links = ["home", "skills", "tools", "products", "work", "about"];
 
 export const skills = [
   {

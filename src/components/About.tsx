@@ -6,16 +6,6 @@ const About = () => {
     <section id="about">
       <div className="align-center section-padding">
         <Title title="about me" />
-        <p className="mb-8 max-w-4xl">
-          With over 4 years of experience in the technology sector, my
-          proficiency lies in defining and executing product strategies,
-          fostering innovation, and ensuring outstanding user experiences.
-          Expertise encompasses market analysis, data-driven decision-making,
-          product development, go-to-market strategies, and stakeholder
-          management. Possessing a deep comprehension of technology trends and
-          customer requirements, products launched under my direction
-          consistently boost business growth and elevate customer satisfaction.
-        </p>
         <div className="mb-4">
           <h3 className="capitalize text-2xl text-primary font-semibold mb-2">
             education :
