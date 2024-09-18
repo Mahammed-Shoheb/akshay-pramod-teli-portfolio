@@ -17,11 +17,11 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <section className="relative" id="#home">
-      <div className="align-center relative px-4 py-20 md:px-8 lg:px-12 grid place-items-center min-h-[90vh] overflow-hidden">
+      <div className="align-center relative px-4 py-36 md:px-8 lg:px-12 grid place-items-center  overflow-hidden">
         <div className="flex flex-col gap-8 text-left sm:text-center ">
           <div className="z-10">
             <h1 className="text-6xl md:text-6xl lg:text-7xl text-primary capitalize font-bold mb-4">
-              Hi! I'm akshay pramod teli
+              Hi! I&apos;m akshay pramod teli
             </h1>
             <p className="text-4xl md:text-5xl lg:text-6xl">Product Manager</p>
           </div>
