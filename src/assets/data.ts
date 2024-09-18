@@ -75,3 +75,60 @@ export const skills = [
     icon: IconReportAnalytics,
   },
 ];
+
+export const tools = [
+  {
+    title: "Jira",
+    description:
+      "Experienced in managing Agile projects, creating user stories, sprint planning, and tracking development progress.",
+    logo: "/svg/logo-gradient-blue-jira-software.svg",
+  },
+  {
+    title: "Metabase",
+    description:
+      "Skilled in building dashboards for data analytics and querying databases to generate actionable insights.",
+    logo: "/svg/Metabase-Logo-with-Wordmark-Blue.svg",
+  },
+  {
+    title: "Amplitude",
+    description:
+      "Proficient in tracking user behavior, funnel analysis, and creating product analytics dashboards.",
+    logo: "/svg/AMPLITUDE_FULL_BLUE.svg",
+  },
+  {
+    title: "Microsoft Excel",
+    description:
+      "Expert in using Excel for data manipulation, pivot tables, and financial modeling.",
+    logo: "/svg/Microsoft_Office_Excel_Logo.svg",
+  },
+  {
+    title: "PowerPoint (PPT)",
+    description:
+      "Proficient in creating professional presentations for executive reporting and strategy discussions.",
+    logo: "/svg/Microsoft_Office_PowerPoint_Logo.svg",
+  },
+  {
+    title: "SQL",
+    description:
+      "Experienced in writing complex SQL queries to manage databases, retrieve, and analyze data.",
+    logo: "/svg/logo-mysql.png",
+  },
+  {
+    title: "Framers",
+    description:
+      "Knowledgeable in using Framers for prototyping, wireframing, and collaborating on design solutions.",
+    logo: "/svg/logo-framer-black-horizontal.svg",
+  },
+  {
+    title: "AWS (DynamoDB, S3)",
+    description:
+      "Understanding of cloud services with hands-on experience in managing DynamoDB databases and S3 storage for web applications.",
+    logo: "/svg/Amazon_Web_Services-Logo.svg",
+  },
+  {
+    title: "Notion",
+    description:
+      "Skilled in organizing project tasks, documenting workflows, and creating collaborative workspaces.",
+    logo: "/svg/made-for-notion-white.svg",
+  },
+];
