@@ -29,7 +29,7 @@ const Home = () => {
             <BackgroundGradient>
               <a
                 target="_blank"
-                href="/Akshay Pramod Teli_9Jun2024.pdf"
+                href="/Akshay_Pramod_Teli_9Jun2024.pdf"
                 className={badgeVariants()}
               >
                 <span>
