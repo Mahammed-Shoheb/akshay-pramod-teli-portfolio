@@ -8,7 +8,7 @@ import Logo from "../Logo";
 import { ModeToggle } from "./ModeToggle";
 import { Button } from "./button";
 import useIsActiveLink from "@/utils/useIsActiveLink";
-import { links } from "@/assests/data";
+import { links } from "@/assets/data";
 
 interface SidebarContextProps {
   open: boolean;
@@ -71,9 +71,9 @@ export const SidebarBody = () => {
 export const DesktopNavbar = () => {
   const { open, setOpen } = useSidebar();
   return (
-    <header>
+    <header className="sticky top-0 bg- z-[100] bg-background">
       <nav className="shadow-md dark:shadow-teal-500 shadow-zinc-300">
-        <div className="align-center flex justify-between items-center w-screen py-4 px-4 sm:px-8 lg:px-12">
+        <div className="align-center flex justify-between items-center py-4 px-4 sm:px-8 lg:px-12">
           <Logo />
           <div className="flex items-center gap-2 sm:gap-8">
             <ul className="hidden md:flex md:items-center md:gap-4">

@@ -70,6 +70,6 @@
 
 @layer components {
   .align-center {
-    @apply max-w-6xl mx-auto;
+    @apply md:max-w-6xl mx-auto w-[95vw];
   }
 }

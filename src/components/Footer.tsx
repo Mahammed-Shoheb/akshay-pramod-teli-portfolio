@@ -1,4 +1,4 @@
-import { links } from "@/assests/data";
+import { links } from "@/assets/data";
 import { IconBrandLinkedin, IconBrandWhatsapp } from "@tabler/icons-react";
 import { Fragment } from "react";
 
@@ -32,10 +32,13 @@ const Footer = () => {
             <span className="capitalize"> akshay pramod teli</span>
           </p>
           <div className="flex items-center gap-2">
-            <a href="https://www.linkedin.com/in/akshaypramodteli/">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/akshaypramodteli/"
+            >
               <IconBrandLinkedin />
             </a>
-            <a href="https://wa.me/919591461981">
+            <a target="_blank" href="https://wa.me/919591461981">
               <IconBrandWhatsapp />
             </a>
           </div>
