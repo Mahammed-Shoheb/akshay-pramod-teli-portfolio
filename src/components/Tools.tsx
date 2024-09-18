@@ -4,7 +4,7 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 const Tools = () => {
   return (
-    <section id="skills">
+    <section id="tools">
       <div className="align-center section-padding">
         <Title title="tools" />
         <InfiniteMovingCards items={tools} direction="right" speed="normal" />

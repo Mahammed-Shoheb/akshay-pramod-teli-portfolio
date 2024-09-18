@@ -16,7 +16,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <section className="relative" id="#home">
+    <section className="relative" id="home">
       <div className="align-center relative px-4 py-36 md:px-8 lg:px-12 grid place-items-center  overflow-hidden">
         <div className="flex flex-col gap-8 text-left sm:text-center ">
           <div className="z-10">
