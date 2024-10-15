@@ -4,8 +4,7 @@ import {
   IconBrandWhatsapp,
   IconFileDownload,
 } from "@tabler/icons-react";
-import { badgeVariants } from "./ui/badge";
-import { BackgroundGradient } from "./ui/background-gradient";
+import { BackgroundGradient } from "./ui/HeroButton";
 import svg1 from "@/assets/svg/undraw_researching_re_fuod.svg";
 import svg2 from "@/assets/svg/undraw_app_wireframe_re_d467.svg";
 import svg3 from "@/assets/svg/undraw_building_blocks_re_5ahy.svg";
@@ -17,11 +16,11 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <section className="relative" id="home">
-      <div className="align-center relative px-4 py-36 md:px-8 lg:px-12 grid place-items-center  overflow-hidden">
-        <div className="flex flex-col gap-8 text-left sm:text-center ">
+      <div className="align-center relative px-4 py-32 md:px-8 lg:px-12 grid place-items-center  overflow-hidden">
+        <div className="flex flex-col gap-4 text-left sm:text-center ">
           <div className="z-10">
-            <h1 className="text-6xl md:text-6xl lg:text-7xl text-primary capitalize font-bold mb-4">
-              Hi! I&apos;m akshay pramod teli
+            <h1 className="text-6xl md:text-6xl lg:text-7xl text-primary capitalize font-bold mb-2">
+              Hi! I&apos;m akshay
             </h1>
             <p className="text-4xl md:text-5xl lg:text-6xl">Product Manager</p>
           </div>
@@ -29,8 +28,8 @@ const Home = () => {
             <BackgroundGradient>
               <a
                 target="_blank"
+                className="flex"
                 href="/Akshay_Pramod_Teli_9Jun2024.pdf"
-                className={badgeVariants()}
               >
                 <span>
                   <IconFileDownload />
@@ -40,9 +39,9 @@ const Home = () => {
             </BackgroundGradient>
             <BackgroundGradient>
               <a
+                className="flex"
                 target="_blank"
                 href="https://www.linkedin.com/in/akshaypramodteli/"
-                className={badgeVariants()}
               >
                 <IconBrandLinkedin />
                 <span>LinkedIn </span>
@@ -52,8 +51,8 @@ const Home = () => {
             <BackgroundGradient>
               <a
                 href="https://wa.me/919591461981"
-                className={badgeVariants()}
                 target="_blank"
+                className="flex"
               >
                 <IconBrandWhatsapp />
                 <span>WhatsApp</span>
@@ -67,7 +66,7 @@ const Home = () => {
             alt=""
             width={300}
             height={300}
-            className="h-16 w-auto sm:h-20 md:h-36"
+            className="h-16 w-auto sm:h-20 md:h-32"
           />
         </motion.div>
         <motion.div className="absolute bottom-2 left-2">
@@ -76,7 +75,7 @@ const Home = () => {
             alt=""
             width={300}
             height={300}
-            className="h-16 w-auto sm:h-20 md:h-36"
+            className="h-16 w-auto sm:h-20 md:h-32"
           />
         </motion.div>
         <motion.div className="absolute top-2 right-2">
@@ -85,7 +84,7 @@ const Home = () => {
             alt=""
             width={300}
             height={300}
-            className="h-16 w-auto sm:h-20 md:h-36"
+            className="h-16 w-auto sm:h-20 md:h-32"
           />
         </motion.div>
         <motion.div className="absolute bottom-2 right-2">
@@ -94,16 +93,16 @@ const Home = () => {
             alt=""
             width={300}
             height={300}
-            className="h-16 w-auto sm:h-20 md:h-36"
+            className="h-16 w-auto sm:h-20 md:h-32"
           />
         </motion.div>
-        <motion.div className="absolute bottom-0 right-[50%] transform translate-x-[50%]">
+        <motion.div className="absolute -bottom-2 right-[50%] transform translate-x-[50%]">
           <Image
             src={svg5}
             alt=""
             width={300}
             height={300}
-            className="h-16 w-auto sm:h-20 md:h-36"
+            className="h-16 w-auto sm:h-20 md:h-32"
           />
         </motion.div>
       </div>
