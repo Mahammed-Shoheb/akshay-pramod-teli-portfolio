@@ -28,7 +28,7 @@ const Home = () => {
             <BackgroundGradient>
               <a
                 target="_blank"
-                className="flex"
+                className="flex gap-2 items-center"
                 href="/Akshay_Pramod_Teli_9Jun2024.pdf"
               >
                 <span>
@@ -39,7 +39,7 @@ const Home = () => {
             </BackgroundGradient>
             <BackgroundGradient>
               <a
-                className="flex"
+                className="flex gap-2 items-center"
                 target="_blank"
                 href="https://www.linkedin.com/in/akshaypramodteli/"
               >
@@ -52,7 +52,7 @@ const Home = () => {
               <a
                 href="https://wa.me/919591461981"
                 target="_blank"
-                className="flex"
+                className="flex gap-2 items-center"
               >
                 <IconBrandWhatsapp />
                 <span>WhatsApp</span>

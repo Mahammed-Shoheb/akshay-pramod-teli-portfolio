@@ -87,7 +87,7 @@ export const DesktopNavbar = () => {
               // className="inline-flex capitalize  gap-2"
               className={buttonVariants({
                 variant: "default",
-                className: "capitalize inline-flex gap-2",
+                className: "capitalize inline-flex gap-2 items-center",
               })}
             >
               <IconMail />
