@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { LinkProps } from "next/link";
 import React, { useState, createContext, useContext } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { IconMenu2, IconX } from "@tabler/icons-react";
+import { IconMenu2, IconX, IconMail } from "@tabler/icons-react";
 import Logo from "../Logo";
 import { ModeToggle } from "./ModeToggle";
 import { Button } from "./button";
@@ -81,7 +81,10 @@ export const DesktopNavbar = () => {
                 return <NavLink navLink={navLink} key={i} />;
               })}
             </ul>
-            <Button className="hidden sm:inline-flex">reach out</Button>
+            <Button className="inline-flex capitalize  gap-2">
+              <IconMail />
+              <span className="hidden sm:block">reach out</span>
+            </Button>
             <ModeToggle />
             <Button
               variant="outline"
