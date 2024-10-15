@@ -9,6 +9,7 @@ import { ModeToggle } from "./ModeToggle";
 import { Button } from "./button";
 import useIsActiveLink from "@/utils/useIsActiveLink";
 import { links } from "@/assets/data";
+import { buttonVariants } from "@/components/ui/button";
 
 interface SidebarContextProps {
   open: boolean;
@@ -81,10 +82,17 @@ export const DesktopNavbar = () => {
                 return <NavLink navLink={navLink} key={i} />;
               })}
             </ul>
-            <Button className="inline-flex capitalize  gap-2">
+            <a
+              href="mailto:akshay.teli.001@gmail.com"
+              // className="inline-flex capitalize  gap-2"
+              className={buttonVariants({
+                variant: "default",
+                className: "capitalize inline-flex gap-2",
+              })}
+            >
               <IconMail />
               <span className="hidden sm:block">reach out</span>
-            </Button>
+            </a>
             <ModeToggle />
             <Button
               variant="outline"
