@@ -37,14 +37,17 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           summary
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-2xl">
-          With over 4 years of experience in the technology sector, my
-          proficiency lies in defining and executing product strategies,
-          fostering innovation, and ensuring outstanding user experiences.
-          Expertise encompasses market analysis, data-driven decision-making,
-          product development, go-to-market strategies, and stakeholder
-          management. Possessing a deep comprehension of technology trends and
-          customer requirements, products launched under my direction
-          consistently boost business growth and elevate customer satisfaction.
+          Product Manager with over 5 years of experience in launching and
+          scaling innovative products across various industries, including
+          retail, hyperlocal marketplaces, and agri-tech. Proven track record of
+          leading end-to-end product development, optimizing operational
+          processes, and driving customer acquisition and retention. Skilled in
+          using data-driven approaches to enhance product profitability and
+          streamline business operations. Adept at managing cross-functional
+          teams, utilizing agile methodologies, and creating impactful
+          go-to-market strategies. Passionate about building customer-centric
+          products that solve real-world problems and deliver measurable
+          business growth.
         </p>
       </div>
 
