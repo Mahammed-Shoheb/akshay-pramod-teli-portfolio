@@ -1,0 +1,12 @@
+export { default as fangover1 } from "./fangover1.jpg";
+export { default as fangoverLogo } from "./fangover_logo.png";
+export { default as vpMartLogo } from "./vpMartLogo.jpg";
+export { default as vpMart1 } from "./vpMart1.jpg";
+export { default as bijakLogo } from "./bijakLogo.svg";
+export { default as bijak1 } from "./bijak1.jpg";
+export { default as bijak2 } from "./bijak2.jpg";
+export { default as bijak3 } from "./bijak3.png";
+export { default as bijak4 } from "./bijak4.png";
+export { default as bijak5 } from "./bijak5.png";
+export { default as fangover } from "./fangover.jpg";
+export { default as bijak } from "./bijak.jpg";

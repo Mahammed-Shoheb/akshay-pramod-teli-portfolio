@@ -82,14 +82,14 @@
     @apply py-20 px-4 md:px-8 lg:px-12;
   }
 
-  /* .no-scrollbar::-webkit-scrollbar {
+  .no-scrollbar::-webkit-scrollbar {
     display: none;
-  } */
+  }
 
-  /* .no-scrollbar {
+  .no-scrollbar {
     -ms-overflow-style: none; /* IE and Edge */
-  /*scrollbar-width: none; /* Firefox */
-  /*} */
+    scrollbar-width: none; /* Firefox */
+  }
 
   .no-select {
     -webkit-touch-callout: none; /* iOS Safari */
