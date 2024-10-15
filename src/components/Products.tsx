@@ -4,13 +4,10 @@ import { StickyScroll } from "../components/ui/sticky-scroll-reveal";
 import Image from "next/image";
 import Title from "./Title";
 import {
-  fangover1,
   fangoverLogo,
   vpMart1,
   vpMartLogo,
   bijakLogo,
-  bijak1,
-  bijak2,
   bijak3,
   bijak4,
   bijak5,
